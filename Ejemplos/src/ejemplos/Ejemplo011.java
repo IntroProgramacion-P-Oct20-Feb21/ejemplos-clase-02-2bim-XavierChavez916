@@ -44,10 +44,12 @@ public class Ejemplo011 {
         
         for (int i = 0; i < promediosMateria1.length; i++) { 
             
-            mensajeFinal = String.format("%sEstudiante:%s - promedio final: "
-                    + "%.4f\n", 
+            mensajeFinal = String.format("%sEstudiante:%s - M1:%s M2:%s "
+                    + "promedio final: %.4f\n", 
                     mensajeFinal,
                     estudiantes[i],
+                    promediosMateria1[i],
+                    promediosMateria2[i],
                     promediosFinales[i]);
         }
         
